@@ -1,0 +1,61 @@
+.user-card{
+  display:flex;
+  justify-content:space-around;
+  border-bottom:1px solid #CCC;
+  max-width:1000px;
+  width:100%;
+  margin:auto;
+  &__container{
+  text-align:center;
+  display:flex;
+  align-content:flex-start;
+  justify-content:center;
+
+    &__photo-wrapper{
+      display:flex;
+      justify-content:flex-start;
+      margin:10px 0;
+      img{
+        border-radius:50%;
+      }
+    }
+    &__info{
+      display:flex;
+      align-content:center;
+      justify-content:center;
+      flex-direction:column;
+      margin-left:30px;
+      p{
+        text-align:left;
+        color:#CCC;
+      }
+    }    
+  }
+  &__btn{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+    &__follow{
+      padding:15px 0;
+      width:80px;
+      border-radius:4px;
+      cursor:pointer;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
